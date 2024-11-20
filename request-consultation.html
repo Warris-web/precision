@@ -1,0 +1,168 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EPIDERMIS - Request Consultation</title>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="icon" type="image/x-icon" href="assets/img/logo1.png">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="logoheadrbg">
+        <div class="logoheadr">
+            <a href="index.html"><img src="assets/img/logo.png" alt="EPIDERMIS"></a>
+        </div>
+    </header>
+    <div class="bookconsultsize">
+        <div class="gettherighttreatment">
+            <h1>
+                Book a Consultation
+            </h1>
+            <p>Meet a  Dermatologist that can help you get started on your journey to better health</p>
+        </div>
+        <div class="comsultationpricebg">
+            <div class="displayflex">
+                <div class="comsultationprice">
+                    <h1>Consultation fee</h1>
+                    <p>12% OFF</p>
+                </div>
+                <div class="comsultationprice comsultationpricemarginleft">
+                    <h1>NGN 22,000</h1>
+                    <p class="text-linethrough">NGN 25,000</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <form action="success.php" method="post">
+                <div class="inputconsulttp">
+                    <div class="displayflex">
+                        <div class="inputconsult inputconsult1">
+                            <p>First name</p>
+                            <input type="text" name="firstname" required>
+                        </div>
+                        <div class="inputconsult inputconsult2">
+                            <p>Last name</p>
+                            <input type="text" name="lastname" required>
+                        </div>
+                    </div>
+                    <p class="m-t-10">
+                        Your information will never be shared with anyone 
+                    </p>
+                </div>
+                <div class="inputconsulttp">
+                
+                    <div class="inputconsult">
+                        <p>Email Address</p>
+                        <input type="email" name="email" required>
+                    </div>
+                
+                </div>
+                
+                <div class="inputconsulttp">
+                    <div class="inputconsult">
+                        <p>WhatsApp Phone number</p>
+                        <input type="tel" name="phone_number">
+                    </div>
+                </div>
+                <div class="inputconsulttp">
+                    <div class="inputconsult">
+                        <p>Concerns/Conditions</p>
+                        <select>
+                            <option>
+                                Select skin concerns/conditions
+                            </option>
+                            <option value="ACNE">ACNE</option>
+                            <option value>Eczema</option>
+                            <option value="Clogged pores">Clogged pores</option>
+                            <option value="Psoriasis">Psoriasis</option>
+                            <option value="Hyperpigmentation">Hyperpigmentation</option>
+                            <option value="Hair loss">Hair loss</option>
+                            <option value="Wrinkles">Wrinkles</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="bookingappointmenttop">
+                    <p class="bookingappointment">By booking an appointment, you agree to Sustain's <a href="javascript:void()">Terms of Use</a> and <a href="javascript:void()">Privacy Policy</a></p>
+                </div>
+                <div class="bookaconsultantpaymntbutton">
+                    <!-- <a href="requestconsultation.html" class="bookaconsultantpaymntbuttonasapnext">Book Consultation</a> -->
+                    
+                    <input type="submit" value="Book Consultation" class="bookaconsultantpaymntbuttonasapnext">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- <form action="submit_form.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Email</button>
+    </form> -->
+    
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Form</title>
+</head>
+<body>
+    <h2>Contact Us</h2>
+    
+    <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea><br><br>
+        
+        <button type="submit">Send Message</button>
+    </form>
+    
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();  // Prevent form from submitting normally
+
+            // Get form data
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+
+            // Send form data to the server
+            fetch('/send-whatsapp/server.js', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    name: name,
+                    email: email,
+                    message: message
+                })
+            })
+            .then(response => response.text())
+            .then(data => {
+                alert(data);  // Show success message
+            })
+            .catch(error => {
+                
+                console.error('Error:', error);
+            });
+        });
+    </script>
+</body>
+</html> -->

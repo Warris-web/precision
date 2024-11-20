@@ -1,0 +1,1138 @@
+.reset{
+  animation : none;
+  animation-delay : 0;
+  animation-direction : normal;
+  animation-duration : 0;
+  animation-fill-mode : none;
+  animation-iteration-count : 1;
+  animation-name : none;
+  animation-play-state : running;
+  animation-timing-function : ease;
+  backface-visibility : visible;
+  background : 0;
+  background-attachment : scroll;
+  background-clip : border-box;
+  background-color : transparent;
+  background-image : none;
+  background-origin : padding-box;
+  background-position : 0 0;
+  background-position-x : 0;
+  background-position-y : 0;
+  background-repeat : repeat;
+  background-size : auto auto;
+  border : 0;
+  border-style : none;
+  border-width : medium;
+  border-color : inherit;
+  border-bottom : 0;
+  border-bottom-color : inherit;
+  border-bottom-left-radius : 0;
+  border-bottom-right-radius : 0;
+  border-bottom-style : none;
+  border-bottom-width : medium;
+  border-collapse : separate;
+  border-image : none;
+  border-left : 0;
+  border-left-color : inherit;
+  border-left-style : none;
+  border-left-width : medium;
+  border-radius : 0;
+  border-right : 0;
+  border-right-color : inherit;
+  border-right-style : none;
+  border-right-width : medium;
+  border-spacing : 0;
+  border-top : 0;
+  border-top-color : inherit;
+  border-top-left-radius : 0;
+  border-top-right-radius : 0;
+  border-top-style : none;
+  border-top-width : medium;
+  bottom : auto;
+  box-shadow : none;
+  box-sizing : content-box;
+  caption-side : top;
+  clear : none;
+  clip : auto;
+  color : inherit;
+  columns : auto;
+  column-count : auto;
+  column-fill : balance;
+  column-gap : normal;
+  column-rule : medium none currentColor;
+  column-rule-color : currentColor;
+  column-rule-style : none;
+  column-rule-width : none;
+  column-span : 1;
+  column-width : auto;
+  content : normal;
+  counter-increment : none;
+  counter-reset : none;
+  cursor : auto;
+  direction : ltr;
+  display : inline;
+  empty-cells : show;
+  float : none;
+  font : normal;
+  font-family : inherit;
+  font-size : medium;
+  font-style : normal;
+  font-variant : normal;
+  font-weight : normal;
+  height : auto;
+  hyphens : none;
+  left : auto;
+  letter-spacing : normal;
+  line-height : normal;
+  list-style : none;
+  list-style-image : none;
+  list-style-position : outside;
+  list-style-type : disc;
+  margin : 0;
+  margin-bottom : 0;
+  margin-left : 0;
+  margin-right : 0;
+  margin-top : 0;
+  max-height : none;
+  max-width : none;
+  min-height : 0;
+  min-width : 0;
+  opacity : 1;
+  orphans : 0;
+  outline : 0;
+  outline-color : invert;
+  outline-style : none;
+  outline-width : medium;
+  overflow : visible;
+  overflow-x : visible;
+  overflow-y : visible;
+  padding : 0;
+  padding-bottom : 0;
+  padding-left : 0;
+  padding-right : 0;
+  padding-top : 0;
+  page-break-after : auto;
+  page-break-before : auto;
+  page-break-inside : auto;
+  perspective : none;
+  perspective-origin : 50% 50%;
+  position : static;
+  /* May need to alter quotes for different locales (e.g fr) */
+  quotes : '\201C' '\201D' '\2018' '\2019';
+  right : auto;
+  tab-size : 8;
+  table-layout : auto;
+  text-align : inherit;
+  text-align-last : auto;
+  text-decoration : none !important;
+  text-decoration-color : inherit;
+  text-decoration-line : none;
+  text-decoration-style : solid;
+  text-indent : 0;
+  text-shadow : none;
+  text-transform : none;
+  top : auto;
+  transform : none;
+  transform-style : flat;
+  transition : none;
+  transition-delay : 0s;
+  transition-duration : 0s;
+  transition-property : none;
+  transition-timing-function : ease;
+  unicode-bidi : normal;
+  vertical-align : baseline;
+  visibility : visible;
+  white-space : normal;
+  widows : 0;
+  width : auto;
+  word-spacing : normal;
+  z-index : auto;
+  /* basic modern patch */
+  all: initial;
+  all: unset;
+}
+@font-face {
+  font-family: Clash Display;
+  src: url(ClashDisplay/Fonts/OTF/ClashDisplay-Medium.otf);
+}
+@font-face {
+  font-family: Clash Display Bold;
+  src: url(ClashDisplay/Fonts/OTF/ClashDisplay-Bold.otf);
+}
+@font-face {
+    font-family: Clash Display Light;
+  src: url(ClashDisplay/Fonts/OTF/ClashDisplay-Light.otf);
+}
+
+.maingetstarted{
+  text-align: center;
+  margin-top: 6em;
+}
+.maingetstarted h1{
+  font-family: Clash Display Bold;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78.72px;
+  color: #3C0D64;
+  text-transform: capitalize;
+}
+.maingetstarted p{
+  font-family: 'Clash Display Light';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.14px;
+  color: #000;
+  margin-top: 1.1em;
+  margin-bottom: 10px;
+}
+.maingetstarted small{
+  font-family: 'Clash Display Light';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.76px;
+  color: #000;
+}
+.maingetstarteddiva{margin-top: 20px;}
+.maingetstarteddivaunder{
+    margin-top: 10em;
+}
+.maingetstarted a{
+  /* border-top: 1px solid #7A90BF; */
+  background: #3C0D64;
+  /* border-right: 1px solid #7A90BF; */
+  font-family: Clash Display;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.14px;
+  color: #fff;
+  border-radius: 20px;
+  padding: 25px 0px;
+  /* border-left: 1px solid #7A90BF; */
+  /* border-bottom: 9px solid #7A90BF; */
+  text-decoration: none !important;
+  display: block;
+  width: 30%;
+  margin: AUTO;
+}
+.wetakeguess{
+   
+}
+.wetakeguess p{
+  font-family: Clash Display Light;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #000
+
+}
+.wearebuilding{}
+.wearebuilding h1{
+  font-family: 'Clash Display';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.52px;
+  color: #3C0D64;
+  margin-bottom: 0px;
+}
+.wearebuilding p{
+  font-family:  'Clash Display Light';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: #000;
+}
+.whatiswrongskin{margin-top: 5em;margin-bottom: 5em;}
+.wearebuildinglogo{margin-right: 10px;}
+.displayflex{
+  display: flex;
+}
+.whatiswrongskin h1{
+  font-family: Clash Display Bold;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 46.74px;
+  color: #3C0D64;
+  text-align: center;
+}
+.personlaizedpromise{
+
+}
+.personlaizedpromisewidth{
+      text-align: center;
+      margin: auto;
+      margin-bottom: 50px;
+}
+.personlaizedpromise h1{
+  font-family: Clash Display;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39.36px;
+  color: #3C0D64;
+}
+.personlaizedpromise p{
+  font-family: Clash Display Light;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: #1E1E1E;
+}
+.personlaizedpromisediv{border-radius: 50px;border: 1px solid #3C0D64;text-align: center;background: #3c0D64;color: #fff;width: 37%;font-size: 26px;margin-top: 55px;/* display: block; */padding: 0px 9px 3px 9px;}
+.howitworksbg{
+  background: #3C0D64;
+  padding: 60px 10px;
+  margin-top: 5em;
+}
+.focusedonyou{
+}
+.focusedonyouborder{
+    border-top: 1px solid #EFEEFE80;
+    padding-top: 30px;
+}
+.focusedonyou h1{
+  font-family: Clash Display;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.52px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.focusedonyou p{
+  font-family: Clash Display Light;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.howitworksh1{
+  font-family: Clash Display;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.52px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.faceskinoilimg{
+
+}
+.faceskinoilimg img{width: 100%;}
+.understandingskinbg{
+  background:#111111;
+  padding: 7em 0;
+}
+
+.understandingskin h2{
+  font-family: Clash Display;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 46.45px;
+  color: #FFFFFF
+
+}
+.understandingskin h2 span{
+  color: #D7A8FF;
+}
+.afooter{
+  background-color: #F7F7F7;
+  padding-top: 14em;
+  padding-bottom: 4em;
+}
+.bookyourconsultainhme{
+  border-bottom: 1px solid #BDBDBD;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.bookyourconsultainhme h1{
+  font-family: Clash Display;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 49.2px;
+  color: #000000
+}
+.bookyourconsultainhme p{
+  font-family: Clash Display Light;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33.6px;
+  color: #000
+}
+.bookyourconsultainhmea{margin-top: 1.2em;margin-bottom: 14em;}
+.bookyourconsultainhmea a{
+  border-color: #7A90BF;
+  background-color: #3C0D64;
+  /* border-top: 1px solid #7A90BF; */
+  background: #3C0D64;
+  /* border-right: 1px solid #7A90BF; */
+  font-family: Clash Display;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.14px;
+  color: #fff !important;
+  border-radius: 20px;
+  padding: 25px 0px;
+  /* border-left: 1px solid #7A90BF; */
+  /* border-bottom: 9px solid #7A90BF; */
+  text-decoration: none !important;
+  margin: AUTO;
+  width: 37%;
+  display: block;
+}
+.footerimg{
+
+}
+
+.footerimg img{width: 60%;}
+.footerlinks{
+
+}
+.footerlinks div{
+  margin-top:20px;
+}
+.footerlinks h2{
+  font-family: Clash Display;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.52px;
+  color: #828282;
+  margin-bottom: 1.2em;
+}
+.footerlinks a{
+  ont-family: Clash Display;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.6px;
+  color: #333333;
+}
+
+.accordion {
+  color: #111111;
+  cursor: pointer;
+  padding: 18px 0px 18px 0px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  background: transparent;
+  font-family: Clash Display;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.52px;
+  text-align: left;
+}
+
+.active, .accordion:hover {
+  background-color: transparent;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #111111;
+  font-weight: bold;
+  float: left;
+  margin-right: 10px;
+}
+
+.active:after {
+  content: "\2212";
+}
+.text-linethrough{
+  text-decoration: line-through;
+}
+
+.panel {
+  padding: 0 18px 0 0px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  font-family: Clash Display Light;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #111111;
+}
+.morefaq{margin-top: 1.5em;}
+.morefaq a{
+  font-family: Clash Display;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.52px;
+  color: #111111;
+  text-decoration: underline;
+}
+
+.logoheadrbg{
+  /* box-shadow: 0px 4px 8px 0px #0000000D; */
+  padding: 30px 15px 30px 40px;
+}
+.textcenter{
+  text-align: center;
+}
+.logoheadr{
+
+}
+.logoheadr a{
+
+}
+.bookconsultsize{
+  width: 36%;
+  margin:auto;
+  margin-top: 3em;
+  margin-bottom:3em;
+}
+.gettherighttreatment{margin-bottom: 30px;}
+.gettherighttreatment h1{
+  font-family: 'Clash Display';
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34.44px;
+  color: #3C0D64;
+}
+.gettherighttreatment p{
+  font-family: Clash Display Light;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.14px;
+  color: #111111;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.onlineassesmentrequest{padding-left: 20px;}
+.onlineassesmentrequesttop{
+  background-color: #EEEAF5;
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 25px;
+}
+.onlineassesmentrequest h1{
+  font-family: Clash Display;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.6px;
+  color: #111111;
+}
+.onlineassesmentrequest ul li{
+  font-family: Clash Display;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #111111
+
+}
+.onlineassesmentrequest h6{
+  font-family: Clash Display;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #111111;
+
+}
+.onlineassesmentrequest p{
+  font-family:  'Clash Display Light';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #111111;
+}
+.onlineassesmentrequestnumber{
+
+}
+.onlineassesmentrequestnumber p{border-radius: 50px;background: #3C0D64;color: #fff;font-family: Clash Display Light;font-size: 20px;font-weight: 500;line-height: 24.6px;padding: 5px 11px;}
+.comsultationpricebg{
+  border-radius: 10px;
+  background-color: #3C0D64;
+  padding: 10px;
+}
+.comsultationprice{
+
+}
+.comsultationpricemarginleft{
+  margin-left: auto;
+}
+.comsultationprice h1{
+  font-family: 'Clash Display';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+.comsultationprice p{
+  font-family: Clash Display Light;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin-bottom: 0px;
+}
+.inputconsult{
+    margin-top: 3em;
+}
+.inputconsult p{
+  font-family: Clash Display;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.22px;
+  color:#4F4F4F;
+
+}
+.inputconsult input{
+  outline: none;
+  border: 0.5px solid #BDBDBD;
+  padding: 19px 15px;
+  width: 100%;
+  color:#4F4F4F;
+  border-radius: 10px;
+}
+.inputconsulttp{
+
+}
+.inputconsulttp{
+  font-family: Clash Display Light;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.22px;
+  color: #3C0D64;
+}
+.inputconsult select{width: 100% !important;border-radius: 10px !important;padding: 10px !important;outline: none !important;outline: none !important;border: 0.5px solid #BDBDBD !important;padding: 19px 15px !important;width: 100% !important;color: #4F4F4F !important;border-radius: 10px !important;}
+.bookingappointmenttop{background: #EFEEFE;padding: 20px;margin-top: 3em;margin-bottom: 3em;}
+.bookingappointment{
+  font-family: 'Clash Display Light';
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #828282
+}
+.bookingappointment a{
+  color: #3C0D64;
+}
+.bookaconsultantpaymntbutton{text-align: center;}
+.bookaconsultantpaymntbutton input{
+  /* border-top: 1px solid #7A90BF; */
+  background: #3C0D64;
+  /* border-right: 1px solid #7A90BF; */
+  font-family: Clash Display;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.14px;
+  color: #fff !important;
+  border-radius: 50px;
+  padding: 27px 40px;
+  /* border-left: 1px solid #7A90BF; */
+  /* border-bottom: 15px solid #7A90BF; */
+  width: 100%;
+}
+.bookaconsultantpaymntbuttonasapnext{
+  /* border-top: 1px solid #7A90BF; */
+  background: #3C0D64;
+  /* border-right: 1px solid #7A90BF; */
+  font-family: Clash Display;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.14px;
+  color: #fff !important;
+  border-radius: 50px;
+  padding: 27px 0px;
+  /* border-left: 1px solid #7A90BF; */
+  /* border-bottom: 15px solid #7A90BF; */
+  width: 100%;
+  display: block;
+}
+.bookaconsultantpaymntbuttonclose{
+  /* border-top: 1px solid #7A90BF; */
+  background: #3C0D64;
+  /* border-right: 1px solid #7A90BF; */
+  font-family: Clash Display;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.14px;
+  color: #fff !important;
+  border-radius: 50px;
+  padding: 27px 0px;
+  /* border-left: 1px solid #7A90BF; */
+  /* border-bottom: 15px solid #7A90BF; */
+  width: 100%;
+}
+.bookaconsultantgobackhome{}
+.bookaconsultantgobackhome a{
+  /* border-top: 1px solid #7A90BF; */
+  background: #3C0D64;
+  /* border-right: 1px solid #7A90BF; */
+  font-family: Clash Display;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.14px;
+  color: #fff !important;
+  border-radius: 50px;
+  padding: 20px 0;
+  /* border-left: 1px solid #7A90BF; */
+  /* border-bottom: 14px solid #7A90BF; */
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.letushelpp{background: #EFEEFE;padding: 10px;}
+.gettherighttreatemntunderstand{margin-top: 3em;}
+.gettherighttreatemntunderstand a{
+  background:#3C0D64;
+  width:100%;
+  font-family: Clash Display;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.68px;
+  text-align: center;
+  color: #fff;
+  padding: 20px 0;
+  border-radius: 35px;
+  display: block;
+}
+.letushelpp p{
+  font-family: Clash Display Light;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.22px;
+  color: #4F4F4F;
+  margin-bottom: 0;
+}
+.letushelpp p span{
+  font-family: Clash Display;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.22px;
+  color: #3C0D64;
+}
+.selectskintypes{
+
+}
+.selectskintypes p{
+  font-family: Clash Display;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.22px;
+  color: #4F4F4F;
+
+}
+.selectskintypes select{
+  font-family: Clash Display;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.22px;
+  color: #BDBDBD;
+  border: 0.5px solid #BDBDBD;
+  width: 100%;
+  padding: 20px 10px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.selectskintypes select option{
+  
+}
+
+.epidermisheader{background: #F5F5F5 !important;}
+.epidermisheaderimg{
+
+}
+.epidermisheaderimg img{
+  width: 70%;
+}
+.linkheaderbutton{
+  /* border-top: 1px solid #7A90BF; */
+  background: #3C0D64;
+  /* border-right: 1px solid #7A90BF; */
+  font-family: Clash Display;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.14px;
+  color: #fff !important;
+  border-radius: 20px;
+  padding: 11px 27px !important;
+  /* border-left: 1px solid #7A90BF; */
+  /* border-bottom: 7px solid #7A90BF; */
+}
+.linkheader{
+  font-family: Clash Display;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.14px;
+  color: #323232;
+  margin-right: 35px;
+  padding-top: 13px;
+}
+.understandingskin{
+  width: 99%;
+}
+.understandingskin h1{
+  
+}
+.frequentlyassked{
+  margin-top: 4em;
+  margin-bottom: 2em;
+}
+.frequentlyassked h1{
+  font-family: Clash Display;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 49.2px;
+  color: #111111;
+  margin-bottom: 40px;
+}
+.inputconsult1{
+  width: 49%;
+}
+.inputconsult2{
+  margin-left: auto;
+  width: 49%;
+}
+.m-t-10{
+  margin-top:10px
+}
+.skincaretesdt{
+  margin-top: 30px;
+  margin-bottom:20px
+}
+.skincaretesdt h1{
+  font-family: Clash Display;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.14px;
+  color: #3C0D64;
+
+}
+.onlineassesmentrequestnumberssp {
+  border-radius: 50px;
+  background: #3C0D64;
+  color: #fff;
+  font-family: Clash Display Light;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.6px;
+  padding: 5px 15px !important;
+}
+.bookinsuccescheck{
+  text-align:center;
+  margin-bottom: 20px;
+}
+.bookinsuccescheck i{
+  border-radius: 50px;
+  border: 1px solid #3C0D64;
+  background: #3C0D64;
+  color: #fff;
+  padding: 15px;
+  font-size: 39px;
+}
+.bookconsultsizess h1{
+  font-family: Clash Display;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 39.36px;
+  color: #3C0D64;
+
+}
+.bookconsultsizess p{
+  font-family: Clash Display Light;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #4F4F4F;
+  margin-bottom: 30px;
+  width: 90%;
+  margin-top: 20px;
+}
+.fafanglerequestnext{text-align: center;margin-top: 50px;}
+.fafanglerequestnext button{
+
+}
+.fafanglerequestnext a{
+  /* border-top: 1px solid #7A90BF; */
+  background: #3C0D64;
+  /* border-right: 1px solid #7A90BF; */
+  font-family: Clash Display;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 22.14px;
+  color: #fff !important;
+  border-radius: 50px;
+  padding: 16px 30px;
+  /* border-left: 1px solid #7A90BF; */
+  /* border-bottom: 7px solid #7A90BF; */
+  text-decoration: none;
+}
+
+.fafanglerequestnext1{margin: auto;text-align: center;margin-top: 50px;width: 50%;}
+.fafanglerequestnext1 button{
+
+}
+.fafanglerequestnext1 a{
+  border-top: 1px solid #3C0D64;
+  background: #fff;
+  border-right: 1px solid #3C0D64;
+  font-family: Clash Display;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 22.14px;
+  color: #3C0D64 !important;
+  border-radius: 50px;
+  padding: 16px 30px;
+  border-left: 1px solid #3C0D64;
+  border-bottom: 7px solid #3C0D64;
+  text-decoration: none;
+}
+.fafanglerequestnext1 input{
+  /* border-top: 1px solid #7A90BF; */
+  background: #3C0D64;
+  /* border-right: 1px solid #7A90BF; */
+  font-family: Clash Display;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.14px;
+  color: #fff !important;
+  border-radius: 50px;
+  padding: 21px 30px;
+  /* border-left: 1px solid #7A90BF; */
+  /* border-bottom: 7px solid #7A90BF; */
+  text-decoration: none;
+}
+.popup {
+  display: none; /* Initially hidden */
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.skintypeaccordion {
+  /* background-color: #EDEAF5; */
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  border-radius: 16px;
+  font-family: Clash Display;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.6px;
+  color: #111111;
+}
+
+.skintypeactive, .skintypeaccordion:hover {
+  background-color: #EDEAF5;
+}
+
+.skintypeaccordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.skintypeactive:after {
+  content: "\2212";
+}
+.skintypeaccordiontop{
+  
+}
+
+.skintypepanel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.modaltopedit1{
+
+}
+.modaltopedit2{width: 100%;max-width: 80%;background: #FAF8FF;border-radius: 24px;}
+.modaltopedit3{
+    border-radius: 24px;
+    padding: 0 8em;
+}
+.modaltopedit4{width: 50%;margin: AUTO;border: 0;margin-bottom: 43px;margin-top: 1em;}
+.modaltopedit5{/* text-align: center; */margin: auto;}
+.modaltopedit5 img{
+  width: 100%;
+}
+.modaltopedit6{}
+  .modaltopedit6 span{
+    color: #1E1E1E !important;
+    font-size: 30px;
+  }
+.modal-body{
+    /* margin: auto; */
+}
+.acnemodalinfo{
+
+}
+.acnemodalinfo h1{
+  font-family: Clash Display;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.6px;
+  color:#111111;
+
+}
+.acnemodalinfo h6{
+  font-family: Clash Display;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.76px;
+  color: #11111180;
+
+}
+.acnemodalinfo ul li{
+  font-family: Clash Display Light;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.22px;
+  color: #000000;
+}
+.letusmodalh1 h1{
+  font-family: Clash Display;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34.44px;
+  text-align: center;
+  color:#3C0D64
+
+}
+.letusmodalh1 p{
+  font-family: Clash Display Light;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.14px;
+  color: #111111;
+}
+
+.fafanglerequestnext122{
+  margin-top: 20px;
+  margin-right: 60px;
+}
+.displayflexnext{
+  display:flex;
+}
+
+
+
+
+
+
+/* Vertical alignment on small screens */
+@media (max-width: 991px) {
+  .footerlinks{
+    margin-top:3em
+  }
+  .personlaizedpromisewidth{
+    margin-top:45px
+  }
+}
+@media (max-width: 700px) {
+  .bookyourconsultainhmea a {
+    width: 80%;
+}
+  .maingetstarted a {
+    width: 60%;
+}
+  .maingetstarted{
+    text-align: center;
+    margin-top: 4em;
+  }
+  .maingetstarted h1{
+    font-family: Clash Display Bold;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 31px;
+    color: #3C0D64;
+    text-transform: capitalize;
+  }
+  .footerimg img {
+    width: 95%;
+  }
+  .bookconsultsize{
+    width: 80%;
+    display: block;
+  }
+  .logoheadr {
+    text-align: center;
+}
+.modaltopedit3 {
+  border-radius: 24px;
+  padding: 0px;
+}
+.modaltopedit2 {
+  width: 100%;
+  max-width: 95%;
+  background: #FAF8FF;
+  border-radius: 24px;
+}
+  .displayflexnext{
+    display:block;
+    margin-top:40px
+  }
+  .fafanglerequestnext1 input{
+  /* border-top: 1px solid #7A90BF; */
+  background: #3C0D64;
+  /* border-right: 1px solid #7A90BF; */
+  font-family: Clash Display;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.14px;
+  color: #fff !important;
+  border-radius: 50px;
+  padding: 21px 30px;
+  /* border-left: 1px solid #7A90BF; */
+  /* border-bottom: 7px solid #7A90BF; */
+  text-decoration: none;
+  margin-top: 40px;
+}
+  .fafanglerequestnext122 {
+    margin-top: 20px;
+    margin-right: 0px;
+}
+  .logoheadr img{
+        width: 37%;
+  }
+  .bookconsultsizess h1 {
+    text-align: center;
+}
+  .bookconsultsizess p{
+    text-align:center
+  }
+}
+@media (max-width: 500px) {
+    .logoheadr img{
+        width: 70%;
+  }
+
+}
+@media (max-width: 320px) {
+
+  .logoheaderwidthhme{
+        width: 50%;
+  }
+}
